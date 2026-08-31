@@ -139,4 +139,6 @@ pub struct Merge<'input, 'data> {
 }
 
 pub(super) mod function;
+/// Parse already-materialized Git merge and diff3 marker blocks.
+pub mod parse;
 mod utils;
